@@ -1,6 +1,6 @@
-# Cinch::Convert
+# Cinch::Plugins::Convert
 
-TODO: Write a gem description
+Cinch Plugin to allow users to convert units.
 
 ## Installation
 
@@ -18,7 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just add the plugin to your list:
+
+    @bot = Cinch::Bot.new do
+      configure do |c|
+        c.plugins.plugins = [Cinch::Plugins::Convert]
+      end
+    end
+
+You will also need to have GNU Units installed. The Units binary that
+ships with OSX is old and doesn't work. If you have units installed
+some place that's not '/usr/bin/units' you will have to specify the
+alternate location.
+
+    c.plugins.options[Cinch::Plugins::Convert][:units_path] = '/usr/bin/gunits'
+
+Once that's all done, just use `.convert x unit1 to unit2` in the channel.
 
 ## Contributing
 
