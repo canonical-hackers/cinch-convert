@@ -37,8 +37,6 @@ module Cinch::Plugins
         else
           "#{from} is #{units_line} #{to}."
         end
-      else
-        "Sorry, I don't understand, please use `.convert X unitname to unitname`."
       end
     end
 

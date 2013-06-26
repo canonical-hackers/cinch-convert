@@ -29,5 +29,23 @@ describe Cinch::Plugins::Convert do
       get_replies(msg).last.chomp.
         should == 'test: tempF(32) is 0 tempC.'
     end
+
+    it 'should return an error on conformability issues' do
+      msg = make_message(@bot, '!convert 15 minutes to gallons')
+      get_replies(msg).last.chomp.
+        should == 'test: Sorry, there was a conformability error when making that conversion.'
+    end
+
+    it 'should return an error on invalid units' do
+      msg = make_message(@bot, '!convert 15 foo to bar')
+      get_replies(msg).last.chomp.
+        should == 'test: Sorry, unknown unit \'foo\'.'
+    end
+
+    it 'shouldn\'t return anything on invalid conversions' do
+      msg = make_message(@bot, '!convert foo 15 foo baz bar')
+      get_replies(msg).
+        should be_empty
+    end
   end
 end
