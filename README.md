@@ -1,5 +1,11 @@
 # Cinch::Plugins::Convert
 
+[![Gem Version](https://badge.fury.io/rb/cinch-convert.png)](http://badge.fury.io/rb/cinch-convert)
+[![Dependency Status](https://gemnasium.com/canonical-hackers/cinch-convert.png)](https://gemnasium.com/canonical-hackers/cinch-convert)
+[![Build Status](https://travis-ci.org/canonical-hackers/cinch-convert.png?branch=master)](https://travis-ci.org/canonical-hackers/cinch-convert)
+[![Coverage Status](https://coveralls.io/repos/canonical-hackers/cinch-convert/badge.png?branch=master)](https://coveralls.io/r/canonical-hackers/cinch-convert?branch=master)
+[![Code Climate](https://codeclimate.com/github/canonical-hackers/cinch-convert.png)](https://codeclimate.com/github/canonical-hackers/cinch-convert)
+
 Cinch Plugin to allow users to convert units.
 
 ## Installation
