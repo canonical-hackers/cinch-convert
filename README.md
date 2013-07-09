@@ -39,7 +39,7 @@ alternate location.
 
     c.plugins.options[Cinch::Plugins::Convert][:units_path] = '/usr/bin/gunits'
 
-Once that's all done, just use `.convert x unit1 to unit2` in the channel.
+Once that's all done, just use `!convert x unit1 to unit2` in the channel.
 
 ## Contributing
 
