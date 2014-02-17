@@ -33,7 +33,7 @@ describe Cinch::Plugins::Convert do
     it 'should return an error on conformability issues' do
       msg = make_message(@bot, '!convert 15 minutes to gallons')
       get_replies(msg).last.text.
-        should == 'test: Sorry, there was a conformability error when making that conversion.'
+        should == 'test: Sorry, there was an error when making that conversion.'
     end
 
     it 'should return an error on invalid units' do
