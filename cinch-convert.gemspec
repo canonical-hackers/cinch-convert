@@ -23,5 +23,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'coveralls'
   gem.add_development_dependency 'cinch-test'
 
-  gem.add_dependency    'cinch',      '~> 2.0.5'
+  gem.add_dependency    'cinch',                '~> 2.0.12'
 end
