@@ -2,9 +2,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/cinch-convert.png)](http://badge.fury.io/rb/cinch-convert)
 [![Dependency Status](https://gemnasium.com/canonical-hackers/cinch-convert.png)](https://gemnasium.com/canonical-hackers/cinch-convert)
-[![Build Status](https://travis-ci.org/canonical-hackers/cinch-convert.png?branch=master)](https://travis-ci.org/canonical-hackers/cinch-convert)
-[![Coverage Status](https://coveralls.io/repos/canonical-hackers/cinch-convert/badge.png?branch=master)](https://coveralls.io/r/canonical-hackers/cinch-convert?branch=master)
-[![Code Climate](https://codeclimate.com/github/canonical-hackers/cinch-convert.png)](https://codeclimate.com/github/canonical-hackers/cinch-convert)
+[![Code Climate](https://codeclimate.com/repos/56af1f0989ff0c6781005e97/badges/e33725af89d03971d9b1/gpa.svg)](https://codeclimate.com/repos/56af1f0989ff0c6781005e97/feed)
+[![Test Coverage](https://codeclimate.com/repos/56af1f0989ff0c6781005e97/badges/e33725af89d03971d9b1/coverage.svg)](https://codeclimate.com/repos/56af1f0989ff0c6781005e97/coverage)
+[![Issue Count](https://codeclimate.com/repos/56af1f0989ff0c6781005e97/badges/e33725af89d03971d9b1/issue_count.svg)](https://codeclimate.com/repos/56af1f0989ff0c6781005e97/feed)
 
 Cinch Plugin to allow users to convert units.
 
