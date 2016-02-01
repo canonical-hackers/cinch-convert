@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(/^(test|spec|features)\//)
   gem.require_paths = ['lib']
 
-  gem.add_development_dependency 'rake', '~> 0.9'
+  gem.add_development_dependency 'rake', '~> 10'
   gem.add_development_dependency 'rspec', '~> 3'
   gem.add_development_dependency 'cinch-test', '~> 0.0', '>= 0.0.2'
   gem.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
