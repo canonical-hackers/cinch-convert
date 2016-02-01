@@ -1,12 +1,10 @@
 language: ruby
-sudo: required
 addons:
   code_climate:
     repo_token: 92fe0faa7e448d60a538d033293adb210809e596d4d9c07f2fd5e9d14f2458c6
 before_install:
   - gem update --system
   - gem update bundler
-  - sudo apt-get install units
 env:
   global:
     - "JRUBY_OPTS=-Xcext.enabled=true"
